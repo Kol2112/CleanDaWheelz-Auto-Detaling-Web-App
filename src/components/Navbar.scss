@@ -1,0 +1,57 @@
+.custom-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease;
+    padding: 1rem 0;
+    z-index: 10;
+    height: auto;
+
+    &.scrolled {
+        background-color: #000;
+
+        .dropdown-menu {
+            background-color: #000;
+        }
+    }
+
+    .navbar-logo {
+        height: 40px;
+    }
+
+    .nav-link {
+        color: #ffffff !important;
+        font-size: 1.1rem;
+        margin-right: 1.5rem;
+        display: inline;
+
+        &:hover, &.active {
+            color: #ffd700 !important;
+        }
+    }
+
+    .nav-item {
+        position: relative;
+
+        &.dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    }
+
+    .dropdown-menu {
+        background-color: rgba(0, 0, 0, 0.3); 
+        margin-top: 0.5rem;
+        transition: background-color 0.3s ease;
+
+        .dropdown-item {
+            color: #ffffff;
+
+            &:hover {
+                background-color: #444;
+                color: #ffd700;
+            }
+        }
+    }
+}
