@@ -1,4 +1,4 @@
-> **Uwaga:** Niniejszy projekt został zrealizowany na potrzeby **pracy inżynierskiej**.
+> Niniejszy projekt został zrealizowany na potrzeby **pracy inżynierskiej**.
 
 # 🧼 CleanDaWheels - Auto Detailing & Online Booking Platform
 
